@@ -40,10 +40,7 @@
     z-index: -1;
     transition: all 0.3s;
 }
-/* .btn:hover::after {
-    transform: scaleX(1.5) ScaleY(1.6);
-    opacity: 0;
-} */
+
 .btn:active{
     transform: translateY(-1px);
     transform: scaleX(1.5) ScaleY(1.6);
