@@ -184,6 +184,35 @@ body {
   left: 0;
 }
 
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.mountain {
+  height: 100%;
+  position: relative;
+}
+
+.mountain-picture {
+  height: 100%;
+  -webkit-clip-path: circle();
+          clip-path: circle();
+}
+
+.mountain-header {
+  font-size: 3rem;
+  opacity: 1;
+  color: black;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-transform: uppercase;
+}
+
 .container {
   width: 80vw;
   margin: 2rem auto;
