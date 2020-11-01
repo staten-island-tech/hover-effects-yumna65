@@ -193,24 +193,41 @@ body {
           box-sizing: border-box;
 }
 
-.mountain {
+.nature {
   height: 100%;
   position: relative;
 }
 
-.mountain-picture {
+.nature-picture {
   height: 100%;
   -webkit-clip-path: circle();
           clip-path: circle();
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
-.mountain-header {
+.nature-header {
   font-size: 3rem;
-  opacity: 1;
-  color: black;
+  opacity: 0;
+  color: #fff;
+  position: aboslute;
+  top: 100%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   text-transform: uppercase;
+}
+
+.nature:hover .nature-picture {
+  -webkit-filter: grayscale(90%);
+          filter: grayscale(90%);
+}
+
+.nature:hover .nature-header {
+  opacity: 1;
+  top: 50%;
 }
 
 .container {
