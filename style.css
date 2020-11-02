@@ -16,63 +16,38 @@ body {
           box-sizing: border-box;
 }
 
-.btn,
-.btn:link,
-.btn:visited {
+/*.circle {
+  width: 100px;
+  padding: 500px 0;
+  line-height: 0;
+  margin: 60px auto;
+  background: pink;
+  color: white;
+  border-radius: 50px;
+  -webkit-cursor: pointer;
+}*/
+.circle {
   text-transform: uppercase;
   text-decoration: none;
   padding: 1.5rem 4rem;
-  background-color: navy;
+  background-color: pink;
   margin: 1rem auto;
   font-size: 2rem;
-  /*border-radius: 5rem; */
-  border: 2px solid #219ff3;
+  border-radius: 5rem;
+  border: 2px solid navy;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   position: relative;
+  -webkit-transition: background 1s, -webkit-transform 0.9s;
+  transition: background 1s, -webkit-transform 0.9s;
+  transition: background 1s, transform 0.9s;
+  transition: background 1s, transform 0.9s, -webkit-transform 0.9s;
 }
 
-.btn-red {
-  color: #fff;
-}
-
-.btn-red::after {
-  color: #fff;
-}
-
-.btn:hover {
-  -webkit-transform: scale(1.25);
-          transform: scale(1.25);
-  -webkit-box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.7);
-          box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.7);
-}
-
-.btn::after {
-  display: inline-block;
-  height: 100%;
-  width: 100%;
-  border-radius: 10rem;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-.btn:hover::after {
-  -webkit-transform: scaleX(1.5) scaleY(1.6);
-          transform: scaleX(1.5) scaleY(1.6);
-  opacity: 0;
-}
-
-.btn:active {
-  -webkit-transform: translateY(-1px);
-          transform: translateY(-1px);
-  -webkit-transform: scaleX(1.5) scaleY(1.6);
-          transform: scaleX(1.5) scaleY(1.6);
-  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+.circle:hover {
+  background: salmon;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
 html,

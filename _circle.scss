@@ -1,0 +1,18 @@
+@import "./variables";
+.circle {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  background-color: pink;
+  color: white;
+  margin: 1rem auto;
+  font-size: 2rem;
+  border-radius: 5rem;
+  border: 2px solid white;
+  transition: all 0.3s;
+  position: relative;
+  transition: background 1s;
+}
+.circle:hover {
+  background: salmon;
+}
