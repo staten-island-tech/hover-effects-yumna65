@@ -1,10 +1,10 @@
 @import "./variables";
 .nature {
-  height: 100%;
+  height: 30rem;
   position: relative;
 }
 .nature-picture {
-  height: 100%;
+  height: 30rem;
   clip-path: circle();
   transition: all 0.3s;
 }
@@ -12,7 +12,7 @@
   font-size: 3rem;
   opacity: 0;
   color: #fff;
-  position: aboslute;
+  position: absolute;
   top: 100%;
   left: 50%;
   transform: translate(-50%, -50%);
