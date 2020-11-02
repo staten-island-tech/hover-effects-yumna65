@@ -22,22 +22,21 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   padding: 1.5rem 4rem;
-  background-color: red;
+  background-color: navy;
   margin: 1rem auto;
   font-size: 2rem;
-  border-radius: 5rem;
+  /*border-radius: 5rem; */
+  border: 2px solid #219ff3;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   position: relative;
 }
 
 .btn-red {
-  background-color: #ff5722;
   color: #fff;
 }
 
 .btn-red::after {
-  background-color: #ff5722;
   color: #fff;
 }
 
@@ -230,6 +229,10 @@ body {
   top: 50%;
 }
 
+body {
+  background-color: lightblue;
+}
+
 .container {
   width: 80vw;
   margin: 2rem auto;
@@ -248,5 +251,6 @@ body {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  color: black;
 }
 /*# sourceMappingURL=style.css.map */

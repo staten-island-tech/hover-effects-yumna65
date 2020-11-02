@@ -6,20 +6,21 @@
   text-transform: uppercase;
   text-decoration: none;
   padding: 1.5rem 4rem;
-  background-color: red;
+  background-color: navy;
   margin: 1rem auto;
   font-size: 2rem;
-  border-radius: 5rem;
+  /*border-radius: 5rem; */
+  border: 2px solid #219ff3;
   transition: all 0.3s;
   position: relative;
 }
 .btn-red {
-  background-color: color(red);
+  background-color: color(navy);
 
   color: #fff;
 }
 .btn-red::after {
-  background-color: color(red);
+  background-color: color(navy);
   color: #fff;
 }
 .btn:hover {
